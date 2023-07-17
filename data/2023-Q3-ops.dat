@@ -1,4 +1,4 @@
-ID	Date	Op Name	Map Name	Op Type	Zeus	N Players (excl. GM)	N Signed Up	Respawn System	IED/Mine Threat	Artillery/Mortar Threat	Faction
+ID	Date	Op Name	Map Name	Op Type	Zeus	N Players (excl. GM)	N Signed Up (+Tentative)	Respawn System	IED/Mine Threat	Artillery/Mortar Threat	Faction
 
 1	2023-06-25	Solid State	Tembelan Island	Amphibious	Conorrob	-1	-1	Wave	No	No	Unknown
 2	2023-06-28	Prospect Valley	Fapovo Island	Infantry	Zoid	-1	-1	Wave	No	No	Unknown
@@ -6,3 +6,4 @@ ID	Date	Op Name	Map Name	Op Type	Zeus	N Players (excl. GM)	N Signed Up	Respawn S
 4	2023-07-05	Rainfall	North Takistan	Infantry	Chloris	-1	-1	Wave	No	No	US Army (modern)
 5	2023-07-09	Aftermath	Niakala	Infantry	Johnson	13	10	One-life	Yes	Mortar	USEC
 6	2023-07-12	Snort Cocaine	Fapovo Island	Airborne	Melon	14	15	Wave	No	No	SWAT
+7	2023-07-16	Mongoose	Lythium	Combined Arms	Lortmil	16	-1	Wave	No	Artillery	US Army (modern)
