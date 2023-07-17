@@ -1,14 +1,17 @@
-#! /usr/bin/env python3
+#! /usr/bin/env python
 
 #
 # Common functionality for parsing op data.
+#
+# Version: 0.1.0
+# Date: 2023-07-17
 #
 
 #
 # Imports
 #
 
-from .util import eprint
+from include.util import eprint
 
 #
 # Classes

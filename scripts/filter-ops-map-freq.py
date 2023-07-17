@@ -1,9 +1,9 @@
-#! /usr/bin/env python3 
+#! /usr/bin/env python 
 
 #
 # filter-ops-map-freq.py
-# Version: 0.2.0
-# Date: 2023-07-08
+# Version: 0.3.0
+# Date: 2023-07-17
 #
 # Filters map usage data from an ops statistics file.
 #
@@ -23,8 +23,7 @@
 import sys
 
 # Local imports
-import include.ops as ops
-from include.util import eprint
+import include.flow as flow
 
 #
 # Main
@@ -32,16 +31,7 @@ from include.util import eprint
 
 # Parse data file
 
-if len(sys.argv) < 2:
-    eprint('Missing data file name.')
-    sys.exit(1)
-
-path = sys.argv[1]
-ops = ops.parse_ops(path)
-
-if ops is None:
-    eprint('Failed to parse op data.')
-    sys.exit(1)
+ops = flow.get_ops_or_die()
 
 # DEBUG
 #from pprint import pprint
