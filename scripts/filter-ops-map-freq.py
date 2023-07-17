@@ -15,13 +15,6 @@
 # python filter-ops-map-freq.py OPS_DATA_FILE
 #
 
-#
-# Imports
-#
-
-# Stdlib imports
-import sys
-
 # Local imports
 import include.flow as flow
 
