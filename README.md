@@ -32,3 +32,5 @@ The meanings of columns are as follows (up to date as of 2023-Q4):
 | N Signed Up       | Number of signed-up players (including tentative)       |
 | Faction           | Name of the player faction                              |
 | Op Type           | Type of the op (infantry, armoured, etc.)               |
+
+Player numbers do not include the Zeus.
